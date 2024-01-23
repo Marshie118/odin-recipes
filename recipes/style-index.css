@@ -1,0 +1,30 @@
+* { box-sizing: border-box;
+    margin: 0px auto;
+}
+
+body { background-color: rgb(230, 199, 129) ;
+        max-width: fit-content;
+}
+
+.title.odin-recipes {
+    text-align: center;
+    color: navy;
+    font-size: 60px;
+    padding: 16px;
+}
+
+button {
+    display: inline-block;
+    height: 35px;
+    width: 180px;
+    
+}
+
+.link {
+    display: inline-block;
+    height: 35px;
+    width: 180px;
+}
+    
+    
+
