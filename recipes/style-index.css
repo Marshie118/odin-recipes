@@ -1,5 +1,5 @@
 * { box-sizing: border-box;
-    margin: 0px auto;
+    margin: 0px;
 }
 
 body { background-color: rgb(230, 199, 129) ;
@@ -8,23 +8,41 @@ body { background-color: rgb(230, 199, 129) ;
 
 .title.odin-recipes {
     text-align: center;
+    font-weight: bolder;
     color: navy;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     padding: 16px;
 }
 
+
+
 button {
     display: inline-block;
+    background-color:rgb(93, 227, 227);
     height: 35px;
     width: 180px;
-    
+    border: 2x solid black;
+    text-align: center;
+    font-size: 16px;
+    }
+
+.link.buttons,
+.images {
+   text-align: center;
 }
 
-.link {
-    display: inline-block;
-    height: 35px;
-    width: 180px;
-}
-    
-    
 
+p {
+    margin: 10px 150px;
+    background-color: rgba(255, 255, 255, 0.50);
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo {
+    width: 318.5px;
+    height: 259px;
+    margin: 0;
+    border: 1pxsolid black;
+}
