@@ -2,8 +2,9 @@
     margin: 0px;
 }
 
-body { background-color: rgb(230, 199, 129) ;
-        max-width: fit-content;
+body { 
+    background-color: rgb(230, 199, 129) ;
+       
 }
 
 .title.odin-recipes {

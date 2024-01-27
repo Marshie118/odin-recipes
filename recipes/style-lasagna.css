@@ -1,5 +1,5 @@
 /* GLOBAL RULES
-===================================================================== */
+======================================================================== */
 
 * {
     box-sizing: border-box;
@@ -7,17 +7,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 body {
-    background-color: rgb(230, 199, 129) ;
-
+    background-color: rgb(230, 199, 129);
 }
 
-/* ================================================================ */
+/* =================================================================== */
 
 
-.title_calamari {
+.title {
     text-align: center;
     font-weight: bolder;
     color: navy;
@@ -25,6 +22,7 @@ body {
     font-size: 60px;
     padding: 16px;
 }
+
 
 .page-links {
     float: left;
@@ -35,14 +33,14 @@ body {
     font-size: medium;
 }
 
-/* ================================================================ */
-
+/* CONTENT SECTION
+====================================================================== */
 h3 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.description {
+.content {
     display: inline-block;
     margin-left: 10px;
     width: 1100px;
@@ -50,21 +48,23 @@ h3 {
     padding: 8px;
 }
 
+.ingredients {
+    margin-top: 25px;
+    border: 2px dashed rgba(0, 0, 0, 0.6);
+    margin-left: 10px;
+    margin-right: 30px;
+    padding: 8px;
+    font-size: 14px;
+}
+
 .food-pic {
     float: right;
-    margin-right: 250px;
+    margin-right: 200px;
     margin-top: 10px;
 }
 
-.ingredients {
-    width: 350px;
-    margin-top: 50px;
-    margin-left: 50px;
-    border: 2px dashed rgba(0, 0, 0, 0.6);
-    padding: 4px;
-}
-
-
-.directions_list {
-    margin-top: 100px;
+.steps-list {
+    padding: 15px;
+    margin-left: 30px; 
+    margin-top: 30px;
 }

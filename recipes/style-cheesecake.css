@@ -1,5 +1,5 @@
 /* GLOBAL RULES
-===================================================================== */
+======================================================================== */
 
 * {
     box-sizing: border-box;
@@ -7,17 +7,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 body {
-    background-color: rgb(230, 199, 129) ;
-
+    background-color: rgb(230, 199, 129);
 }
 
-/* ================================================================ */
+/* =================================================================== */
 
-
-.title_calamari {
+.title {
     text-align: center;
     font-weight: bolder;
     color: navy;
@@ -25,6 +21,7 @@ body {
     font-size: 60px;
     padding: 16px;
 }
+
 
 .page-links {
     float: left;
@@ -35,25 +32,21 @@ body {
     font-size: medium;
 }
 
-/* ================================================================ */
+
+/* CONTENT SECTION
+====================================================================== */
 
 h3 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.description {
+.content {
     display: inline-block;
     margin-left: 10px;
     width: 1100px;
     background-color: rgba(255, 255, 255, 0.50);
     padding: 8px;
-}
-
-.food-pic {
-    float: right;
-    margin-right: 250px;
-    margin-top: 10px;
 }
 
 .ingredients {
@@ -64,7 +57,12 @@ h3 {
     padding: 4px;
 }
 
+.food-pic {
+    float: right;
+    margin-right: 250px;
+    margin-top: 10px;
+}
 
-.directions_list {
-    margin-top: 100px;
+.steps-list {
+    margin-top: 50px;
 }
